@@ -1,5 +1,5 @@
-public class Cheese extends PizzaDecorator {
-    public Cheese(Pizza pizza) {
+public class CheeseDecorator extends PizzaDecorator {
+    public CheeseDecorator(Pizza pizza) {
         super(pizza);
 
     }
