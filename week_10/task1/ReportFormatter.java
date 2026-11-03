@@ -1,0 +1,4 @@
+package week_10.task1;
+public interface ReportFormatter {
+    String format(String title, String[] headers, String[][] rows);
+}
